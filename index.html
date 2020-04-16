@@ -11,28 +11,36 @@
   </head>
   <body>
     <!-- Top nav bar for navigation -->
-    <nav class="navbar navbar-expand-sm bg-dark fixed-top justify-content-end">
-      <!-- turn into buttons -->
-      <ul class="navbar-nav ">
-        <li class="nav-item">
-          <a class="nav-link text-decoration-none" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-decoration-none" href="#">History</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-decoration-none" href="#">Test Modes</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-decoration-none" href="#">Other</a>
-        </li>
-      </ul>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-end">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link text-decoration-none" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-decoration-none" href="history.html">History</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-decoration-none" href="test_modes.html">Test Modes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-decoration-none" href="dummies.html">Dummies</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
-    <div class="container text-center pt-3">
+    <!-- main body -->
+    <div class="container-fluid text-center pt-3">
         <div class="jumbotron jumbotron-fluid bg-secondary">
             <div class="col-12 title-bit">
                 <h1 class="display-1 font-weight-lighter">A guide to crash testing.</h1>
+                <div class="text-center">
+                  <img src="Images/index.jpg" class="rounded img-fluid" alt="Picture of two crashed cars">
+                </div>
             </div>
         </div>
         <div class="row grey-back">
@@ -43,13 +51,13 @@
                 <a class="btn btn-dark btn-lg" href="test_modes.html" role="button"><h3>Test modes.</h3></a>
             </div>
             <div class="col">
-                <a class="btn btn-dark btn-lg" href="other.html" role="button"><h3>Unnamed third section.</h3></a>
+                <a class="btn btn-dark btn-lg" href="dummies.html" role="button"><h3>Crash Test Dummies.</h3></a>
             </div>
         </div>
     </div>
 
     <!-- navbar that is basically a footed -->
-    <nav class="navbar navbar-expand-sm bg-light fixed-bottom justify-content-end">
+    <nav class="navbar navbar-expand-sm bg-light justify-content-end">
       <!-- put a contact link in? -->
       <ul class="navbar-nav ">
         <li class="nav-item">
